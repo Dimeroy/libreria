@@ -25,14 +25,14 @@ class Libros extends Controller{
 
         $libro= new Libro();
 
-        
+       
         
         if($imagen=$this->request->getfile('imagen')){
                 $nuevoNombre= $imagen->getRandomName();
                 $imagen->move('../public/uploads/',$nuevoNombre);
                 
                 $datos=[ 
-                    'nombre'=>$this->request-> getVar ('nombre'),
+                    'nombre'=> $this->request-> getVar ('nombre'),
                     'imagen'=>$nuevoNombre
                 ];
                 $libro->insert($datos);

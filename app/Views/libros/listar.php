@@ -42,7 +42,14 @@
                 <td><?=$libro[ 'id'];?></td>
                 <td><?=$libro[ 'imagen'];?></td>
                 <td><?=$libro[ 'nombre'];?></td>
-                <td>Editar/Borrar</td>
+                <td>
+                <button class="btn btn-info" type="button">Editar</button>
+                <button class="btn btn-danger" type="button">Borrar</button>
+
+        
+
+
+                </td>
             </tr>
 
 <?php endforeach; ?>

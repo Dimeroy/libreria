@@ -183,3 +183,73 @@ CRITICAL - 2022-02-18 02:53:58 --> Undefined variable $datos
 #3 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2022-02-18 03:17:00 --> Undefined variable $datos
+#0 C:\Xampp\htdocs\libreria\app\Controllers\Libros.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Xampp\\htdocs...', 21)
+#1 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(936): App\Controllers\Libros->crear()
+#2 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#3 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 03:17:19 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\Xampp\htdocs\libreria\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\Xampp\htdocs\libreria\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\Xampp\htdocs\libreria\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\Xampp\htdocs\libreria\app\Controllers\Libros.php(38): CodeIgniter\Model->insert(Array)
+#4 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(936): App\Controllers\Libros->guardar()
+#5 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-18 03:19:37 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\Xampp\htdocs\libreria\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\Xampp\htdocs\libreria\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\Xampp\htdocs\libreria\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\Xampp\htdocs\libreria\app\Controllers\Libros.php(38): CodeIgniter\Model->insert(Array)
+#4 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(936): App\Controllers\Libros->guardar()
+#5 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-18 03:21:21 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\Xampp\htdocs\libreria\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\Xampp\htdocs\libreria\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\Xampp\htdocs\libreria\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\Xampp\htdocs\libreria\app\Controllers\Libros.php(38): CodeIgniter\Model->insert(Array)
+#4 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(936): App\Controllers\Libros->guardar()
+#5 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-18 03:28:31 --> Array to string conversion
+#0 C:\Xampp\htdocs\libreria\app\Controllers\Libros.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Xampp\\htdocs...', 28)
+#1 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(936): App\Controllers\Libros->guardar()
+#2 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#3 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 03:30:15 --> Array to string conversion
+#0 C:\Xampp\htdocs\libreria\app\Controllers\Libros.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Xampp\\htdocs...', 28)
+#1 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(936): App\Controllers\Libros->guardar()
+#2 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#3 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 06:00:39 --> Allowed fields must be specified for model: App\Models\Libro
+#0 C:\Xampp\htdocs\libreria\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Libr...')
+#1 C:\Xampp\htdocs\libreria\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\Xampp\htdocs\libreria\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\Xampp\htdocs\libreria\app\Controllers\Libros.php(38): CodeIgniter\Model->insert(Array)
+#4 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(936): App\Controllers\Libros->guardar()
+#5 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#6 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-18 06:12:22 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\Xampp\htdocs\libreria\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Xampp\htdocs\libreria\system\Common.php(1217): CodeIgniter\View\View->render('libros/listar', Array, true)
+#2 C:\Xampp\htdocs\libreria\app\Controllers\Libros.php(14): view('libros/listar', Array)
+#3 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(936): App\Controllers\Libros->index()
+#4 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+#5 C:\Xampp\htdocs\libreria\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Xampp\htdocs\libreria\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
